@@ -8,12 +8,14 @@ variable "account_id" {
   type        = string
   description = "The id of of your Harness Account."
   default     = ""
+  sensitive   = true
 }
 
 variable "platform_api_key" {
   type        = string
   description = "This is either your Harness user PAT or Harness Service account token."
   default     = ""
+  sensitive   = true
 }
 
 variable "org_id" {
