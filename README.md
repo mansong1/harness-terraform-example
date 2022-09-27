@@ -1,6 +1,7 @@
 ----
 
 export HARNESS_ACCOUNT_ID=
+
 export HARNESS_ENDPOINT=
 export HARNESS_PLATFORM_API_KEY=
 
