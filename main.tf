@@ -73,7 +73,7 @@ resource "harness_platform_pipeline" "nginx" {
     kubernetes_connector = "${harness_platform_connector_kubernetes.kubernetes.id}" }
   )
   depends_on = [
-    "harness_platform_environment.environment",
+    harness_platform_environment.environment,
   ]
 }
 
